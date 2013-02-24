@@ -1,6 +1,8 @@
 require 'faraday'
 require 'json'
 
+require 'peerindex/version'
+
 module PeerIndex
   
   class << self
@@ -55,4 +57,4 @@ module PeerIndex
   
   extend Connection
   
-end  
+end
