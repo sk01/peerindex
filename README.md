@@ -28,6 +28,7 @@ PeerIndex.new("f183qza9k88mjynhtjfc56ce")
 resp = PeerIndex.actorBasic(:twitter_screen_name => screenName)
 
 puts "Twitter user '#{screenName}' has a PeerIndex score of #{resp["peerindex"]}"
+```
 
 ## Contributing
 
