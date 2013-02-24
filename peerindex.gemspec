@@ -5,7 +5,7 @@ require 'peerindex/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "peerindex"
-  gem.version       = Peerindex::VERSION
+  gem.version       = PeerIndex::VERSION
   gem.authors       = ["Michael Fox"]
   gem.email         = ["mike@mikefox.info"]
   gem.description   = %q{Provides an interface to the four main endpoints of PeerIndex REST API.}
