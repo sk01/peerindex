@@ -1,6 +1,6 @@
 # Peerindex
 
-TODO: Write a gem description
+Provides an interface to the four main endpoints of PeerIndex REST API.
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Pass a valid PeerIndex API key to the constructor of the PeerIndex class.
+
+```ruby
+screenName = 'peerindex'
+
+PeerIndex.new("f183qza9k88mjynhtjfc56ce")
+
+resp = PeerIndex.actorBasic(:twitter_screen_name => screenName)
+
+puts "Twitter user '#{screenName}' has a PeerIndex score of #{resp["peerindex"]}"
 
 ## Contributing
 
