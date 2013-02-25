@@ -4,6 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'peerindex/version'
 
 Gem::Specification.new do |gem|
+  gem.add_dependency 'faraday'
+  gem.add_dependency 'json'
+
   gem.name          = "peerindex"
   gem.version       = PeerIndex::VERSION
   gem.authors       = ["Michael Fox"]
